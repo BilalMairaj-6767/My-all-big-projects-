@@ -14,6 +14,7 @@ These projects cover Python fundamentals, Object-Oriented Programming (OOP), Pan
 * 🏏 **Cricket-Tournament-Analyzer** – Cricket statistics, team analysis, and visualizations using OOP and Pandas.
 * 🏥 **Hospital-Management-Analyzer** – A read-only hospital data analysis project with statistical reports and visualizations.
 * 🚢 **Titanic-Dataset-Very-Importent** - Titanic dataset analysis using Python (Pandas & Matplotlib) with data cleaning, visualization, and survival insights.
+* 🧑‍🎓 **Student-Dataset-Very-Importent** - Student dataset analysis project using Python (Pandas & Matplotlib) with data cleaning, grouping, and visualization.
 ## 🛠 Technologies Used
 
 * Python
