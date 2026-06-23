@@ -1,0 +1,36 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+data = {
+    "Pizza_Name":["malai boti", "tikka boti", "arabian pizza", "italian pizza", "pineapple pizza", "everything pizza"],
+    "Price":[250, 250, 400, 500, 300, 1000],
+    "Size":["small", "medium", "large", "medium", "large", "large"],
+    "Quantity_Sold":[27, 24, 45, 23, 54, 95],
+    "Rating":[4.8, 7.3, 3.5, 8.4, 9.0, 10.0],
+}
+
+df = pd.DataFrame(data)
+print(df)
+
+total_pizzas_sold = df['Quantity_Sold'].sum()
+average_rating = df['Rating'].mean()
+
+print("\nTotal Pizzas Sold:", total_pizzas_sold)
+print("Average Rating:", average_rating)
+
+plt.figure(figsize=(10, 6))
+plt.bar(df['Pizza_Name'], df['Quantity_Sold'], color='skyblue')
+plt.title('Quantity Sold by Pizza')
+plt.xlabel('Pizza Name')
+plt.ylabel('Quantity Sold')
+plt.grid(axis='y')
+plt.legend()
+plt.legend()
+plt.xticks(rotation=45)
+plt.tight_layout()
+plt.show()
+
+plt.figure(figsize=(10, 6))
+plt.pie(df['Rating'], labels=df['Pizza_Name'],autopct='%1.1f%%')
+plt.title('Pizza Ratings')
+plt.show()
