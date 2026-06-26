@@ -15,6 +15,9 @@ These projects cover Python fundamentals, Object-Oriented Programming (OOP), Pan
 * 🏥 **Hospital-Management-Analyzer** – A read-only hospital data analysis project with statistical reports and visualizations.
 * 🚢 **Titanic-Dataset-Very-Importent** - Titanic dataset analysis using Python (Pandas & Matplotlib) with data cleaning, visualization, and survival insights.
 * 🧑‍🎓 **Student-Dataset-Very-Importent** - Student dataset analysis project using Python (Pandas & Matplotlib) with data cleaning, grouping, and visualization.
+* 
+* 🍕 **Pizza Sales Analyzer** – A read-only Python project using Pandas and Matplotlib to analyze pizza sales, ratings, pricing, and visualize insights through charts.
+
 ## 🛠 Technologies Used
 
 * Python
