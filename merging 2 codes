@@ -1,3 +1,3 @@
 df_outer_join = df_1.merge(df_2, left_on='name', right_on='Name', how='outer')
 display(df_outer_join)
-#Merging 2 data sets by joins the 5000 data anda new one.
+#Merging 2 data sets by joins the 5000 data and a new one.
