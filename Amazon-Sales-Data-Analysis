@@ -1,0 +1,106 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+df = pd.read_csv("Amazon.csv")
+
+df.head()
+
+df.tail()
+
+df.shape
+
+df.describe()
+
+df.info()
+
+df.columns()
+
+df.duplicated().sum()
+
+df['UnitPrice'] = pd.cut(df['Discount'],
+bins=[0,12,18,35,60,100],
+labels=['OrderID', 'OrderDate', 'CustomerID', 'CustomerName', 'ProductID'])
+
+print(df['OrderDate'])
+
+df['CustomerName'].value_counts().head(10).plot(kind='bar')
+plt.title("Top 10 Customers")
+plt.grid(True)
+plt.show()
+
+df['Quantity'].value_counts().head(10).plot(kind='bar')
+plt.title("Quantity")
+plt.grid(True)
+plt.show()
+
+df['PaymentMethod'].value_counts().head(10).plot(kind='bar')
+plt.title("PaymentMethod of every custumor")
+plt.grid(True)
+plt.show()
+
+plt.scatter(df.index, df['PaymentMethod'])
+plt.title("PaymentMethod of every one")
+plt.grid(True)
+plt.show()
+
+df['ProductName'].value_counts().head(10).plot(kind='bar')
+plt.title("ProductName")
+plt.grid(True)
+plt.show()
+
+df.isnull().sum()
+
+df.rsub()
+
+df.cummin()
+
+df.infer_objects()
+
+highest_price = df.loc[df["TotalAmount"].idxmax()]
+lowest_price = df.loc[df["TotalAmount"].idxmin()]
+highest_Discount = df.loc[df["Discount"].idxmax()]
+lowest_Discount = df.loc[df["Discount"].idxmin()]
+print("highest price of product      ", highest_price)
+print("lowest price of product      ", lowest_price)
+print("highest Discount of product      ", highest_Discount)
+print("lowest Discount of product,      ", lowest_Discount)
+
+import matplotlib.pyplot as plt
+df.groupby('Discount')['TotalAmount'].mean().plot(kind='bar', color = ['pink', 'lightblue'])
+plt.title("Discount by TotalAmount")
+plt.xlabel("Discount")
+plt.ylabel("Total_Amount")
+plt.show()
+
+import matplotlib.pyplot as plt
+df.groupby('Category')['TotalAmount'].mean().plot(kind='bar', color = ["lightblue", "pink"])
+plt.title("Category by TotalAmount")
+plt.xlabel("Category")
+plt.ylabel("Total_Amount")
+plt.show()
+
+df['ProductName'].value_counts().head(10).plot(kind='bar')
+plt.title("Top 10 product name")
+plt.grid(True)
+plt.show()
+
+df['City'].value_counts().head(10).plot(kind='bar')
+plt.title("Top 10 City")
+plt.grid(True)
+plt.show()
+
+df['Brand'].value_counts().head(10).plot(kind='box')
+plt.title("Top 10 Brand")
+plt.grid(True)
+plt.show()
+
+df['Brand'].value_counts().head(10).plot(kind='line')
+plt.title("Top 10 Brand")
+plt.grid(True)
+plt.show()
+
+df['Brand'].value_counts().head(10).plot(kind='pie',autopct='%1.1f%%')
+plt.title("Top 10 Brand")
+plt.grid(True)
+plt.show()
