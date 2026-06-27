@@ -18,6 +18,7 @@ These projects cover Python fundamentals, Object-Oriented Programming (OOP), Pan
 * 🔗 Student Dataset Merge Analysis – A Python Pandas project demonstrating inner, left, right, and outer joins by merging a 5000-student dataset with another
   dataset for data integration and analysis.
 * 🍕 **Pizza Sales Analyzer** – A read-only Python project using Pandas and Matplotlib to analyze pizza sales, ratings, pricing, and visualize insights through charts.
+* 🛍️ **Amazon-Sales-Data-Analysis** - A real-world Amazon sales data analysis project using Python, Pandas, and Matplotlib to clean, analyze, and visualize business data.
 
 ## 🛠 Technologies Used
 
@@ -35,4 +36,4 @@ This repository documents my Python learning journey and showcases the projects 
 
 ## 👨‍💻 Author
 
-**Muhammad Bilal**
+***Muhammad Bilal***
