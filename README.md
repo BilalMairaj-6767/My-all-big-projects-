@@ -20,6 +20,9 @@ These projects cover Python fundamentals, Object-Oriented Programming (OOP), Pan
 * 🍕 **Pizza Sales Analyzer** – A read-only Python project using Pandas and Matplotlib to analyze pizza sales, ratings, pricing, and visualize insights through charts.
 * 🛍️ **Amazon-Sales-Data-Analysis** - A real-world Amazon sales data analysis project using Python, Pandas, and Matplotlib to clean, analyze, and visualize business data.
 * 📽️ **Movie-Ratings-Analysis** - A Python-based movie ratings analysis project using Pandas and Matplotlib to explore ratings, revenue, genres, votes, and release years through data analysis and visualization.
+🏨 **Hotel Booking Analysis** - A Python data analysis project that explores hotel bookings, revenue, customer ratings, and payment methods using Pandas and Matplotlib.
+🍽️ **Restaurant Sales Analysis** - A Python data analysis project that analyzes restaurant sales, customer ratings, revenue, and business performance using Pandas and Matplotlib.
+🛒 **E-Commerce Customer Orders Analysis** - A Python data analysis project that analyzes e-commerce customer orders, sales performance, revenue trends, and business insights using Pandas, Matplotlib, and Seaborn.
 
 ## 🛠 Technologies Used
 
