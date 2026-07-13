@@ -24,6 +24,7 @@ These projects cover Python fundamentals, Object-Oriented Programming (OOP), Pan
 * 🍽️ **Restaurant Sales Analysis** - A Python data analysis project that analyzes restaurant sales, customer ratings, revenue, and business performance using Pandas and Matplotlib.
 * 🛒 **E-Commerce Customer Orders Analysis** - A Python data analysis project that analyzes e-commerce customer orders, sales performance, revenue trends, and business insights using Pandas, Matplotlib, and Seaborn.
 * 📦 **Warehouse Inventory Analysis** - A Python data analysis project that analyzes warehouse inventory, stock levels, inventory value, suppliers, and warehouse  performance using Pandas and Matplotlib.
+* 💊 **Pharmacy Sales Analysis** - A Python data analysis project that analyzes pharmacy sales data using Pandas and Matplotlib to generate business insights through EDA, visualizations, and revenue analysis.
 
 
 ## 🛠 Technologies Used
